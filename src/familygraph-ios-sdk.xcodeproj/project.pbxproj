@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954018DC14B5B96F0002C058 /* FamilyGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 954018D214B5B96F0002C058 /* FamilyGraph.h */; };
+		954018DD14B5B96F0002C058 /* FamilyGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 954018D314B5B96F0002C058 /* FamilyGraph.m */; };
+		954018DE14B5B96F0002C058 /* FamilyGraphHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 954018D414B5B96F0002C058 /* FamilyGraphHeaders.h */; };
+		954018DF14B5B96F0002C058 /* FGDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 954018D614B5B96F0002C058 /* FGDialog.h */; };
+		954018E014B5B96F0002C058 /* FGDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 954018D714B5B96F0002C058 /* FGDialog.m */; };
+		954018E114B5B96F0002C058 /* FGLoginDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 954018D814B5B96F0002C058 /* FGLoginDialog.h */; };
+		954018E214B5B96F0002C058 /* FGLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 954018D914B5B96F0002C058 /* FGLoginDialog.m */; };
+		954018E314B5B96F0002C058 /* FGRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 954018DA14B5B96F0002C058 /* FGRequest.h */; };
+		954018E414B5B96F0002C058 /* FGRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 954018DB14B5B96F0002C058 /* FGRequest.m */; };
+		AA747D9F0F9514B9006C5449 /* familygraph_ios_sdk_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* familygraph_ios_sdk_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		AEA93B2111D52959000A4545 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1411D52959000A4545 /* JSON.h */; };
+		AEA93B2211D52959000A4545 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1511D52959000A4545 /* NSObject+SBJSON.h */; };
+		AEA93B2311D52959000A4545 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1611D52959000A4545 /* NSObject+SBJSON.m */; };
+		AEA93B2411D52959000A4545 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1711D52959000A4545 /* NSString+SBJSON.h */; };
+		AEA93B2511D52959000A4545 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1811D52959000A4545 /* NSString+SBJSON.m */; };
+		AEA93B2611D52959000A4545 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1911D52959000A4545 /* SBJSON.h */; };
+		AEA93B2711D52959000A4545 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1A11D52959000A4545 /* SBJSON.m */; };
+		AEA93B2811D52959000A4545 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1B11D52959000A4545 /* SBJsonBase.h */; };
+		AEA93B2911D52959000A4545 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1C11D52959000A4545 /* SBJsonBase.m */; };
+		AEA93B2A11D52959000A4545 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1D11D52959000A4545 /* SBJsonParser.h */; };
+		AEA93B2B11D52959000A4545 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1E11D52959000A4545 /* SBJsonParser.m */; };
+		AEA93B2C11D52959000A4545 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1F11D52959000A4545 /* SBJsonWriter.h */; };
+		AEA93B2D11D52959000A4545 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B2011D52959000A4545 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		954018D214B5B96F0002C058 /* FamilyGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyGraph.h; sourceTree = "<group>"; };
+		954018D314B5B96F0002C058 /* FamilyGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyGraph.m; sourceTree = "<group>"; };
+		954018D414B5B96F0002C058 /* FamilyGraphHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyGraphHeaders.h; sourceTree = "<group>"; };
+		954018D514B5B96F0002C058 /* FGDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FGDialog.bundle; sourceTree = "<group>"; };
+		954018D614B5B96F0002C058 /* FGDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGDialog.h; sourceTree = "<group>"; };
+		954018D714B5B96F0002C058 /* FGDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGDialog.m; sourceTree = "<group>"; };
+		954018D814B5B96F0002C058 /* FGLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGLoginDialog.h; sourceTree = "<group>"; };
+		954018D914B5B96F0002C058 /* FGLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGLoginDialog.m; sourceTree = "<group>"; };
+		954018DA14B5B96F0002C058 /* FGRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGRequest.h; sourceTree = "<group>"; };
+		954018DB14B5B96F0002C058 /* FGRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGRequest.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* familygraph_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = familygraph_ios_sdk_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEA93B1411D52959000A4545 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		AEA93B1511D52959000A4545 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		AEA93B1611D52959000A4545 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		AEA93B1711D52959000A4545 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		AEA93B1811D52959000A4545 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		AEA93B1911D52959000A4545 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		AEA93B1A11D52959000A4545 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		AEA93B1B11D52959000A4545 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		AEA93B1C11D52959000A4545 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		AEA93B1D11D52959000A4545 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		AEA93B1E11D52959000A4545 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		AEA93B1F11D52959000A4545 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		AEA93B2011D52959000A4545 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libfamilygraph_ios_sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfamilygraph_ios_sdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libfamilygraph_ios_sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* familygraph-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* FGConnect */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "familygraph-ios-sdk";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* FGConnect */ = {
+			isa = PBXGroup;
+			children = (
+				954018D214B5B96F0002C058 /* FamilyGraph.h */,
+				954018D314B5B96F0002C058 /* FamilyGraph.m */,
+				954018D414B5B96F0002C058 /* FamilyGraphHeaders.h */,
+				954018D514B5B96F0002C058 /* FGDialog.bundle */,
+				954018D614B5B96F0002C058 /* FGDialog.h */,
+				954018D714B5B96F0002C058 /* FGDialog.m */,
+				954018D814B5B96F0002C058 /* FGLoginDialog.h */,
+				954018D914B5B96F0002C058 /* FGLoginDialog.m */,
+				954018DA14B5B96F0002C058 /* FGRequest.h */,
+				954018DB14B5B96F0002C058 /* FGRequest.m */,
+				AEA93B1311D52959000A4545 /* JSON */,
+			);
+			name = FGConnect;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* familygraph_ios_sdk_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		AEA93B1311D52959000A4545 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AEA93B1411D52959000A4545 /* JSON.h */,
+				AEA93B1511D52959000A4545 /* NSObject+SBJSON.h */,
+				AEA93B1611D52959000A4545 /* NSObject+SBJSON.m */,
+				AEA93B1711D52959000A4545 /* NSString+SBJSON.h */,
+				AEA93B1811D52959000A4545 /* NSString+SBJSON.m */,
+				AEA93B1911D52959000A4545 /* SBJSON.h */,
+				AEA93B1A11D52959000A4545 /* SBJSON.m */,
+				AEA93B1B11D52959000A4545 /* SBJsonBase.h */,
+				AEA93B1C11D52959000A4545 /* SBJsonBase.m */,
+				AEA93B1D11D52959000A4545 /* SBJsonParser.h */,
+				AEA93B1E11D52959000A4545 /* SBJsonParser.m */,
+				AEA93B1F11D52959000A4545 /* SBJsonWriter.h */,
+				AEA93B2011D52959000A4545 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* familygraph_ios_sdk_Prefix.pch in Headers */,
+				AEA93B2111D52959000A4545 /* JSON.h in Headers */,
+				AEA93B2211D52959000A4545 /* NSObject+SBJSON.h in Headers */,
+				AEA93B2411D52959000A4545 /* NSString+SBJSON.h in Headers */,
+				AEA93B2611D52959000A4545 /* SBJSON.h in Headers */,
+				AEA93B2811D52959000A4545 /* SBJsonBase.h in Headers */,
+				AEA93B2A11D52959000A4545 /* SBJsonParser.h in Headers */,
+				AEA93B2C11D52959000A4545 /* SBJsonWriter.h in Headers */,
+				954018DC14B5B96F0002C058 /* FamilyGraph.h in Headers */,
+				954018DE14B5B96F0002C058 /* FamilyGraphHeaders.h in Headers */,
+				954018DF14B5B96F0002C058 /* FGDialog.h in Headers */,
+				954018E114B5B96F0002C058 /* FGLoginDialog.h in Headers */,
+				954018E314B5B96F0002C058 /* FGRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* familygraph-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "familygraph-ios-sdk" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "familygraph-ios-sdk";
+			productName = "familygraph-ios-sdk";
+			productReference = D2AAC07E0554694100DB518D /* libfamilygraph_ios_sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "familygraph-ios-sdk" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* familygraph-ios-sdk */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* familygraph-ios-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA93B2311D52959000A4545 /* NSObject+SBJSON.m in Sources */,
+				AEA93B2511D52959000A4545 /* NSString+SBJSON.m in Sources */,
+				AEA93B2711D52959000A4545 /* SBJSON.m in Sources */,
+				AEA93B2911D52959000A4545 /* SBJsonBase.m in Sources */,
+				AEA93B2B11D52959000A4545 /* SBJsonParser.m in Sources */,
+				AEA93B2D11D52959000A4545 /* SBJsonWriter.m in Sources */,
+				954018DD14B5B96F0002C058 /* FamilyGraph.m in Sources */,
+				954018E014B5B96F0002C058 /* FGDialog.m in Sources */,
+				954018E214B5B96F0002C058 /* FGLoginDialog.m in Sources */,
+				954018E414B5B96F0002C058 /* FGRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/familygraph_ios_sdk.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = familygraph_ios_sdk_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = familygraph_ios_sdk;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/familygraph_ios_sdk.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = familygraph_ios_sdk_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = familygraph_ios_sdk;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "familygraph-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "familygraph-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

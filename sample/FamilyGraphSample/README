@@ -1,0 +1,6 @@
+FamilyGraph sample for iOS
+
+Demonstrates how to use the MyHeritage Platform to integrate your iOS app. This sample initially asks the user to log in to MyHeritage then provides the user with a sample with FamilyGraph API calls such as get logged in user info and logging out.
+
+Build Requirements
+iOS 1.0 SDK
